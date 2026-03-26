@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 104px;
+    height: 46px;
+}
+   
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+body{
+    background-color: #0b0e17;
+    overflow-x: hidden;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.informacion > a{
+    text-decoration: none;
+    color: #75b8f1;
+}
+.informacion > a > img {
+    width: 28px;
+    height: 28px;
+    display: block;
+    list-style: none;
+}
+.informacion .cuerda {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 357px;  
+}
+.ventana-main{
+    width: 676px;
+    left: 355px;
+    position: relative;
+    top: 60px;
+    z-index: 2;
+}
+.ventana-main-2{
+    width: 589px;
+    left: 420px;
+    position: relative;
+    bottom: 260px;
+}
+
+.ventana-main-3 > img{
+    width: 225px;
+    transform: rotate(-10deg);
+    position: relative;
+    bottom: 380px;
+    left: 230px;
+    z-index: 3;
+}
+.ventana-main-4 > img{
+    width: 250px;
+    transform: rotate(35deg);
+    position: relative;
+    bottom: 810px;
+    left: 990px;
+    z-index: 1;
+}
+.linea-main > img{
+  width: 37px;
+  position: relative;
+  bottom: 940px;
+  left: 670px;
+}
+
+.video-main > video {
+  position: relative;
+  bottom: 930px;   /* casi igual que la línea, para que quede debajo */
+  left: 300px;     /* misma X que la línea */
+  width: 782px;
+  height: 427px;
+}
+.linea-projectos{
+    position: relative;
+    bottom: 780px;
+}
+.section-title-1 > h2{
+    color: #4df8ce;
+    position: relative;
+    left: 600px;
+    bottom: 700px;
+    font-size: 36px;
+    margin-bottom: -650px;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+    justify-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+}
+
+.card {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    min-height: 100px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card .card-window {
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    width: 96%;
+    height: 83%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-deadpool .card-window {
+    background-image: url("../img/deadpool.png");
+}
+.card-transformers .card-window {
+    background-image: url("../img/transformers.png");
+}
+.card-all-hams-on-deck .card-window {
+    background-image: url("../img/all-hams-on-deck.png");
+}
+.card-ewtkmc .card-window {
+    background-image: url("../img/ewtkmc.png");
+}
+.card-mcc-ui-concept .card-window {
+    background-image: url("../img/mcc-ui-concept.png");
+}
+.card-crowfall .card-window {
+    background-image: url("../img/crowfall.png");
+}
+.card-Symmetrica .card-window {
+    background-image: url("../img/Symmetrica.png");
+}
+.card-game-jam .card-window {
+    background-image: url("../img/game-jam.png");
+}
+.card-Logo-Design .card-window {
+    background-image: url("../img/Logo-Design.png");
+}
+.card-deadpool .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-transformers .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-all-hams-on-deck .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-ewtkmc .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-mcc-ui-concept .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-crowfall .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-Symmetrica .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-game-jam .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-Logo-Design .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-label{
+    position: absolute;
+    top: 180px;
+    color: white;
+
+}
+
+.section-title-2 > h2{
+    color: #4df8ce;
+    position: absolute;
+    top: 2425px;
+    left: 565px;
+    font-size: 36px;
+}
+.projects-grid-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+    justify-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.card-film-photos .card-window {
+    background-image: url("../img/film-photos.png");
+}.card-videos-from-the-1980s .card-window {
+    background-image: url("../img/Videos\ from\ the\ 1980s.png");
+}.card-the-vault .card-window {
+    background-image: url("../img/The\ Vault.png");
+}
+.card-film-photos .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-videos-from-the-1980s .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.card-the-vault .card-window > img{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+.sobre-mi{
+    background-image: url("../img/imagen-sobre-mi.png");
+}
+
+.hey-there > img{
+    width: 450px;
+    position: absolute;
+    left: 270px;
+    top: 3250px;
+    transform: rotate(-3deg);
+}
+.televisor > img{
+    width: 400px;
+    position: absolute;
+    left: 820px;
+    transform: rotate(11deg);
+    top: 3150px;
+}
+.texto {
+    width: 100%
+}
+.texto > p{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
